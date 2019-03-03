@@ -1,0 +1,277 @@
+#introduction {
+  position: relative;
+  background-color: #BBCC35;
+  width: 1060px;
+  height: 1412px;
+  margin-left: 66px;
+  /* margin-top: 211px; */
+}
+/* whiteline */
+.vertical {
+  position: absolute;
+  left: 150px;
+  background-color: #fff;
+  width: 40px;
+  height: 1352px;
+}
+
+.side {
+  position: absolute;
+  left: 150px;
+  bottom: 60px;
+  background-color: #fff;
+  width: 600px;
+  height: 40px;
+}
+
+.topimage {
+  position: absolute;
+  left: 318px;
+  top: 46px;
+}
+#introduction h1 {
+  position: absolute;
+  left: 51.66px;
+  top: 67.29px;
+  color: #231815;
+  font-size: 86.45px;
+  font-family: helvetica;
+  letter-spacing: 54px;
+}
+
+#introduction > h1 > span{
+  color: #fff;
+}
+
+.service ul {
+  position: absolute;
+  top: 525.86px;
+  list-style: none;
+}
+
+.item {
+  color: #000000;
+  font-size: 14px;
+  font-family: Futura;
+  margin-bottom: 48.52px;
+}
+
+.about {
+  position: absolute;
+  top: 859px;
+  left: 159.34px;
+  color: #000000;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+.about h2 {
+  font-size: 20px;
+}
+
+.about h3 {
+  font-size: 30px;
+}
+
+.about > p {
+  width: 500px;
+  word-break: normal;
+  font-size: 15px;
+}
+
+.cp_btn {
+  position: absolute;
+  top: 178px;
+  left: 437px;
+}
+
+a.cp_btn {
+	display: inline-block;
+	position: relative;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	border-top: 2px solid #111;
+	border-bottom: 2px solid #111;
+	text-decoration: none;
+	font-weight: bold;
+	color: #111;
+}
+a.cp_btn:before, a.cp_btn:after {
+	content: '';
+	position: absolute;
+	top: -7px;
+	width: 2px;
+	height: calc(100% + 14px);
+	background-color: #111;
+	transition: .3s;
+}
+a.cp_btn:before {
+	left: 7px;
+}
+a.cp_btn:after {
+	right: 7px;
+}
+a.cp_btn:hover:before{
+	top: 0px;
+	left:0;
+	height: 100%;
+}
+a.cp_btn:hover:after{
+	top: 0px;
+	right: 0;
+	height: 100%;
+}
+
+.subiamge {
+  position: absolute;
+  left: 682px;
+  top: 99px;
+}
+
+#guide {
+  position: relative;
+  width: 1131px;
+  height: 723px;
+  border: 2px solid #111;
+  border-radius: 40px 40px;
+  margin: auto;
+  margin-top: 211px;
+}
+
+#guide h1 {
+  margin-top: 36px;
+  text-align: center;
+  color: #000;
+  font-size: 22px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  letter-spacing: 5px;
+}
+
+#guide p {
+  margin-top: 70px;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+.reservation {
+  margin-top: 70px;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+}
+
+.reservation > a {
+  text-decoration: none;
+}
+
+.men {
+  color: #3FA9F5;
+  font-size: 25px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  letter-spacing: 5px;
+}
+
+.men_en {
+  color: #707070;
+  font-size: 10px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  padding-left: 22px;
+}
+
+.men:hover {
+  border-bottom: 2px solid #3FA9F5;
+  color: #3FA9F5;
+}
+.women {
+  margin-left: 200px;
+  color: #FF7BAC;
+  font-size: 25px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  letter-spacing: 5px;
+}
+
+.women_en {
+  color: #707070;
+  font-size: 10px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  padding-left: 22px;
+}
+
+.women:hover {
+  border-bottom: 2px solid #FF7BAC;
+  color: #FF7BAC;
+}
+
+#inquiry {
+  position: relative;
+  background-color: #BBCC35;
+  width: 1134px;
+  height: 620px;
+  margin: auto;
+  margin-top: 210px;
+}
+
+.verticaline {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  background-color: #fff;
+  width: 40px;
+  height: 520px;
+}
+
+#inquiry h1 {
+  padding-top: 36px;
+  text-align: center;
+  color: #000;
+  font-size: 22px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  letter-spacing: 5px;
+}
+
+.comment {
+  margin-top: 70px;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+.icon {
+  margin-top: 70px;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.communicate {
+  margin: auto;
+  padding: 15px 40px;
+  border: 1px solid #111;
+  border-radius: 10px 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  margin-top: 30px;
+}
+
+.mail {
+  margin-left: 15%;
+}
+
+footer {
+  width: 100%;
+  height: 292px;
+  background-color: #BDCCD4;
+}
